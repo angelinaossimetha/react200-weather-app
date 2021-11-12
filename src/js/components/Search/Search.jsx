@@ -42,7 +42,7 @@ export default class Search extends Component {
                     <div className='input-group'>
                         <input type='text' className='form-control' placeholder='Enter a city name' value={name} onChange={this.handleSearchCity}></input>
                         <div className='input-group-append'>
-                            <button className='btn btn-outline-secondary' type='submit' onClick={this.handleGetCity}>Go!</button>
+                            <button className='btn btn-outline-secondary' type='button' onClick={this.handleGetCity}>Go!</button>
                         </div>
                     </div>
                 </form>

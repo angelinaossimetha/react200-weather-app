@@ -34,8 +34,7 @@ export default class City extends Component {
             <div className='card'>
                 <div className='card-header text-white bg-primary mb-3'>City Information</div>
                 <div className='card-body'>
-                    <h3 className='card-title text-center text-dark text-secondary'>{name}</h3>
-                    <div className='test-left'>{this.getIcon(icon)}</div>
+                    <h3 className='card-title text-center text-dark text-secondary'>{this.getIcon(icon)} {name}</h3>
                     <p className='card-text text-center' >Lat/Long: {lat},{long}</p>
                     <div className="row">
                         <div className="col">

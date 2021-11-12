@@ -19,7 +19,8 @@ export default function searchReducer(state = defaultState, action) {
 	console.log(state);
 	console.log(type);
 	switch (type) {
-		case 'GET_CITY': {
+		case 'GET_CITY_FULFILLED': {
+			console.log("hello");
 			return {
 				...state,
 				name: payload.data.name,

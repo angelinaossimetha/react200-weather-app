@@ -16,9 +16,16 @@ export default class History extends Component {
                         {history.map((city) => {
                             return <div>
                                 <li className='list-group-item' key={city.time}>
-                                    {city.name}
+                                    {/* {city.name}
                                     {city.date}
-                                    {city.time}
+                                    {city.time} */}
+                                    <text>{city.name}</text>
+                                    <div
+                                        className='pull-right'>{city.date}
+                                    </div>
+                                    <div
+                                        className='pull-right'>{city.time}
+                                    </div>
                                 </li>
                             </div>
                         })}
