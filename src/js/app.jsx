@@ -1,22 +1,22 @@
 import React from 'react';
-import CityInfomation from './components/CityInformation';
+import City from './components/City';
 import Header from './components/Header';
-import SearchBar from './components/SearchBar';
-import SearchHistory from './components/SearchHistory';
+import Search from './components/Search';
+import History from './components/History';
 
 export default class App extends React.Component {
   render() {
     return (
       <div className='container'>
         <Header />
-        <SearchBar/><br></br>
+        <Search/><br></br>
         <div className='row'>
           <div className='col-12 col-md-6 mb-4'>
-            <CityInfomation />
+            <City />
           </div>
           <div className='col-12 col-md-6 mb-4'>
             <div className='panel panel-default'>
-              <SearchHistory />
+              <History />
             </div>
           </div>
         </div>

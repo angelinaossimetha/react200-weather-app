@@ -2,7 +2,6 @@ import React from "react";
 
 
 const Header = props => {
-    console.log(props);
     return (
         <div className='jumbotron text-left' >
             <h1 className='display-3 '>Origin Weather Application</h1><br/>
