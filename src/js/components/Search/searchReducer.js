@@ -16,6 +16,8 @@ const defaultState = {
 export default function searchReducer(state = defaultState, action) {
 	const { type, payload } = action;
 
+	console.log(state);
+	console.log(type);
 	switch (type) {
 		case 'GET_CITY': {
 			return {
